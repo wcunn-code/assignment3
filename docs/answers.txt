@@ -1,0 +1,45 @@
+1. 
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 858 bytes | 858.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/wcunn-code/assignment3.git
+   f4975e5..48cc5da  master -> master
+
+2.
+git rev-list --count HEAD
+9
+
+3.
+git log -1 README.md
+Date:   Mon Mar 9 21:53:37 2026 -0400
+
+4.
+Branches allow people to make changes to the code without affecting the main code so mistakes are less costly.
+Branches also allow people to make changes to the code simultaneously and then merge the code.
+
+5.
+Git log displays the commit history of the repository.
+Git status displays the current state of your directory. 
+
+6. 
+git log -- Vehicle.h
+
+7.
+git log --grep="file"
+
+8.
+Inheritance is when a class gets the data of another class.
+Polymorphism is when a method name can be used in more than one way depending on the object using it. 
+Encapsulation is keeping data and it's methods in a class and hiding the contents.
+
+9.
+In the dictator and lieutenants workflow, lieutenants review the changes from the developers and then the dictator dictates what gets merged. 
+In the integration manager workflow, the developers fork the project and make their own changes and then send pull requests to an integration manager to merge them.
+
+10.
+They would benefit from a dictators and lieutenant workflow because if they used the other workflow it would make the blessed repository too crowded and code review would be more difficult. 
